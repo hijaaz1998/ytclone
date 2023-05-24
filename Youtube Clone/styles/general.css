@@ -1,0 +1,10 @@
+p{
+    font-family: Roboto, Arial;
+ }
+
+ body{
+    height: 1000px;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 50px;
+ }

@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section{
+    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 130px;
+    margin-right: 122px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right-section{
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hamburger-bg{
+    cursor: pointer;
+    background-color: lightblue;
+    padding-left: 0px;
+}
+.hamburger-icon{
+    height: 12px;
+    width: 20px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.youtube-logo{
+    height: 16px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.search-button{
+    border: none;
+    height: 17.3px;
+    border-width: 0.1px;
+    border-color: lightgray;
+    border-style: solid;
+    margin-left: -1px;
+    cursor: pointer;
+    width: 30px;
+}
+.search-button-image{
+    height: 10px;
+    border: none;
+}
+.voice-search-button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.voice-search{
+    height: 12px;
+    margin-top: 4px;
+}
+.search-box{
+    width: 0;
+   flex: 1;
+   height: 14px;
+   padding-left: 5px;
+   font-size: 8px ;
+   font-style: normal;
+   font-weight: lighter;
+   border-width: 1px;
+   border-color: lightgray;
+   border-style: solid;
+   outline: none;
+}
+.search-box::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 8px;
+    font-weight: 100;
+
+}
+.upload-icon{
+    height: 13px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.notification-icon{
+    height: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.notification-bar{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    font-size: 6px;
+    font-family: Roboto, Arial;
+    background-color: rgb(203, 15, 15);
+    color: white;
+    width: 6px;
+    height: 8px;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    top: 3px;
+    right: -5px;
+}
+.my-cover{
+    height: 16px;
+    border-radius: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.downside-header{
+    height: 18px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 50px;
+    top: 28px;
+    z-index: 10;
+    background-color: white;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.downside-header button{
+    border: none;
+    height: 13px;
+    border-radius: 3px;
+}
+.downside-header div{
+    font-family: Roboto, Arial;
+    font-size: 7px;
+    cursor: pointer;
+}
+.downside-header button:hover{
+    background-color: rgb(223, 222, 222);
+}
